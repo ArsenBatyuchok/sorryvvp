@@ -315,7 +315,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Open Sans', Calibri, sans-serif;
+    font-family: 'Gill Sans MT', 'Gill Sans', 'Open Sans', Calibri, sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -352,7 +352,7 @@ body {
 .content-title {
     /* ВЛАДИМИРА: */
     font-size: 8rem;
-    font-weight: 800;
+    font-weight: 700;
     color: #FFFFFF;
     letter-spacing: 0.8rem;
     line-height: 8.6rem;
