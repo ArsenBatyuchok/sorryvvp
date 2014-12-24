@@ -19,8 +19,8 @@ textarea {
 }
 
 html {
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 10px;
+    line-height: 10px;
 }
 
 /*
@@ -330,10 +330,10 @@ body {
     /* ПОСЛЕДНЕЕ НОВОГОДНЕЕ: */
     font-family: GillSans-Light;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #D1D1D1;
-    letter-spacing: 10px;
-    line-height: 38px;
+    letter-spacing: 1rem;
+    line-height: 3.8rem;
     margin: 57px auto 0;
     border-bottom: 1px solid #979797;
     width: 503px;
@@ -343,21 +343,21 @@ body {
 .content-title .small {
     /* ПРЕЗИДЕНТА РФ: */
     font-weight: 300;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #AEAB84;
-    letter-spacing: 10px;
-    line-height: 28px;
+    letter-spacing: 1rem;
+    line-height: 2.8rem;
     margin: 15px 0;
 }
 
 .content-title {
     /* ВЛАДИМИРА: */
-    font-size: 80px;
+    font-size: 8rem;
     font-weight: 700;
     color: #FFFFFF;
-    letter-spacing: 8px;
-    line-height: 86px;
-    margin: 94px auto;
+    letter-spacing: 0.8rem;
+    line-height: 8.6rem;
+    margin: 58px auto;
 }
 
 .timer {
@@ -372,9 +372,9 @@ body {
 .timer-title {
     /* ОСТАЛОСЬ ВСЕГО: */
     font-weight: 300;
-    font-size: 20.45px;
+    font-size: 2rem;
     color: #D1D1D1;
-    line-height: 23px;
+    line-height: 2.3rem;
     margin: 0 auto 8px;
     overflow: hidden;
     max-width: 503px;
@@ -415,7 +415,7 @@ body {
 .share-wrapper {
     overflow: hidden;
     clear: both;
-    padding-top: 90px;
+    padding-top: 70px;
     max-width: 503px;
     margin: 0 auto;
 }
@@ -434,8 +434,8 @@ body {
 
 .share-msg, .tag {
     font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 2rem;
+    line-height: 2.3rem;
     text-transform: uppercase;
 }
 
@@ -452,13 +452,109 @@ body {
 
 @media (min-width: 1700px) {
     body {
-        padding-top: 8%;
+        padding-top: 6%;
     }
 }
 
+@media (max-width: 700px) {
+    html {
+        font-size: 9px;
+    }
+    .share-wrapper {
+        max-width: 495px;
+    }
+}
 
+@media (max-width: 630px) {
+    html {
+        font-size: 7px;
+    }
+    .timer-title .time-left {
+        float: none;
+        text-align: center;
+    }
 
+    .title {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 415px;
+    }
+    .border {
+        display: none;
+    }
+    .countdown-period {
+        margin-top: 0;
+    }
+    .timer-title {
+        margin-bottom: 15px;
+    }
+    .timer {
+        max-width: 450px;
+    }
 
+    .share-wrapper {
+        padding-top: 60px;
+        max-width: 435px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 6px;
+    }
+    .content-title {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #FFFFFF;
+        letter-spacing: 0.6rem;
+        line-height: 6.6rem;
+        margin: 35px auto;
+        font-weight: 600;
+
+    }
+    .title {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 310px;
+        padding-bottom: 20px;
+    }
+    .content-title .small {
+        margin: 10px 0;
+    }
+    .timer {
+        max-width: 310px;
+    }
+    .countdown-amount:after {
+        right: -16px;
+    }
+    .share-btns, .share-msg, .tag {
+        float: none;
+    }
+    .share-btns {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    .share-wrapper {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 375px) {
+    .share-wrapper {
+        padding-top: 35px;
+    }
+    .content-title {
+        line-height: 5rem;
+    }
+    .timer-title {
+        margin-bottom: 6px;
+    }
+    .title {
+        margin-top: 15px;
+        letter-spacing: 0.7rem;
+        max-width: 300px;
+        padding-bottom: 15px;
+    }
+}
 
 
 

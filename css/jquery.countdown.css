@@ -40,9 +40,9 @@
 }
 .countdown-amount {
 	font-weight: 100;
-	font-size: 85.9px;
+	font-size: 8.6rem;
 	color: #FFFFFF;
-	line-height: 97px;
+	line-height: 9.7rem;
 	text-shadow: 1px 1px 0px rgba(255,255,255,0.10);
 	position: relative;
 }
@@ -62,9 +62,9 @@
 .countdown-period {
     display: block;
 	font-weight: 300;
-	font-size: 20.45px;
+	font-size: 2rem;
 	color: #D1D1D1;
-	line-height: 23px;
+	line-height: 2.3rem;
 	text-transform: uppercase;
 	margin-top: 10px;
 }
