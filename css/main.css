@@ -449,6 +449,11 @@ body {
     text-decoration: none;
 }
 
+.putin-video {
+    width: 68rem;
+    height: 48rem;
+}
+
 @media (min-width: 1700px) {
     body {
         padding-top: 6%;
@@ -538,6 +543,10 @@ body {
     }
     .share-wrapper {
         padding-top: 40px;
+    }
+    .putin-video {
+        width: 300px;
+        height: 225px;
     }
 }
 @media (max-width: 375px) {
